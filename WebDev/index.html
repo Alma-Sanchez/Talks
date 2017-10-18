@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Web Development 101</h1>
+					<hr>
+					<br />
+					By: Alma Sanchez
+				</section>
+				<section id="fragments">
+					<section>
+						<h2>What is web development?</h2>
+						<br/>
+						<p class="fragment">Web development is the process of developing any application for the WWW (World Wide Web)</p>
+					</section>
+
+					<section>
+						<h2>Similarities to Application Development</h2>
+						<ul>
+							<li class="fragment">Interface</li>
+							<li class="fragment">Stores/Retrieves Data Somewhere</li>
+							<li class="fragment">Buttons that lead to events</li>
+							<li class="fragment">A server that hosts the website or a downloadable file (app store)</li>
+						</ul>
+					</section>
+				</section>
+				<section>					
+					<section>
+							<h2>Components of Web Dev</h2>
+							<ul>
+							    <li>Appearance</li>
+							    <li>Behavior &amp; User Interaction</li>
+							    <li>Data Manipulation</li>
+							    <li>Deployment</li>
+							</ul>
+						</section>
+
+						<section>
+							<h2>Appearance</h2>
+							<ul>
+								<li>User Interface</li>
+								<li>User Experience</li>
+								<li>A/B Testing</li>
+								<li>Quality Assurance</li>
+							</ul>
+						</section>
+
+						<section>
+							<h2>Application Architecture for User Interfaces</h2>
+					    <ul style="display='flex', ">
+					    	<li>Model-View-Controller</li>
+					    	<img src="./assets/MVC.png" alt="model view controller pattern diagram">
+					    	<li>Model-View-ViewModel</li>
+					    	<img src="./assets/MVVM.png" alt="model view controller pattern diagram">
+					    </ul>
+						</section>
+
+						<section>
+							<h2>Behavior &amp; User Interaction</h2>
+								<ul>
+									<li>JavaScript</li>
+									<li>JQuery &amp; other frameworks</li>
+									<li>Ruby</li>
+									<li>PHP</li>
+									<li>Java Spring</li>
+									<li>asp.net</li>
+								</ul>
+						</section>
+						<section>
+							<h2>Data Manipulation</h2> 
+								<ul>
+								    <li>API (Application Program Interface)</li>
+								    <li>HTTP (Hypertext Transfer Protocol)
+								    	<ul class="fragment">
+								    	    <li>GET</li>
+								    	    <li>PUT</li>
+								    	    <li>POST</li>
+								    	    <li>PATCH</li>
+								    	</ul>
+								    </li>
+								    <li>Database</li>
+								</ul>
+						</section>
+
+						<section>
+							<h2>Deployment</h2>
+							<ul>
+								<li>GitHub/Git</li>
+								<li>Amazon Web Services, Digital Ocean,  GitHub pages, or any cloud hosts</li>
+								<li>Docker</li>
+								<li>Jenkins/Travis</li>
+							</ul>	
+						</section>
+				</section>
+	
+				<section>
+					<h2>My Workflow Experience</h2>
+					<ul>
+					    <li>Design Comprehensive Layout (Design Comp)</li>
+					    <li>Break down of comp into stories/tickets</li>
+					    <li>Implementation</li>
+					    <li>Pull Request</li>
+					    <li>Release</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Resources</h2>
+					<ul>
+						<li>Graphic design Courses @ AU</li>
+				    <li><a href="https://www.womenwhocode.com/" target="_blank">Women Who Code</a> - <a href="https://docs.google.com/forms/d/e/1FAIpQLSclKdiMvrKGi3RBemEM_c4h0QQQVuIrVYhNBQDrfX9jL4Bcxg/viewform">Slack</a> Group or newsletter</li>
+				    <li><a href="http://www.dctechslack.com/">DC Tech Slack</a></li>
+				    <li><a href="https://www.meetup.com/">Meetups - any interest you have</a></li>
+				    <li><a href="https://www.codeschool.com/">CodeSchool</a></li>
+				    <li><a href="https://www.codecademy.com/">Code Academy</a></li>
+				    <li><a href="https://www.freecodecamp.org/">Free Code Camp</a></li>
+				    <li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">Frontend Developer Interview Questions</a></li>
+					</ul>
+				</section>
+
+				<section>			
+					<h2>Contact Me</h2>
+					<ul>
+					    <li>&#9993; alma08sanchez@gmail.com</li>
+					    <li><img src="./assets/github.png" alt="GitHub" style="width: 39px; margin-bottom: -4px; margin-left: -3px; margin-top: 37px;height: 39px; background: transparent; color: #FFF; border: 0;" /> <a href="">Alma-Sanchez</a></li>
+					</ul>
+				</section>
+				<section>
+					Walk through of chrome's developer tools
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
